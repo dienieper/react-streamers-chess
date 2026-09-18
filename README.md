@@ -95,13 +95,4 @@ Documentação da API: [Chess.com Streamers API](https://api.chess.com/pub/strea
 https://dienieper.github.io/react-streamers-chess/
 ```
 
-Se o nome do repositório for diferente, ajuste o `base` em `vite.config.ts` para corresponder ao nome correto.
 
-## Fora de escopo (v1)
-
-- Filtros, busca ou ordenação
-- Paginação
-- Autenticação
-- Refresh automático / polling
-- Bibliotecas de UI (Material, Tailwind, etc.)
-- State management externo (Redux, Zustand, etc.)
