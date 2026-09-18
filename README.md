@@ -105,9 +105,7 @@ Este projeto está configurado para publicar automaticamente em GitHub Pages usa
 4. Em `Source`, selecione `GitHub Actions`
 5. O workflow em `.github/workflows/deploy-pages.yml` fará o build e o deploy automaticamente
 
-### URL esperada
-
-A URL de acesso será algo como:
+### URL DO PROJETO
 
 ```text
 https://dienieper.github.io/react-streamers-chess/
