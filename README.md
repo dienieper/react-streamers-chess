@@ -110,7 +110,7 @@ Este projeto está configurado para publicar automaticamente em GitHub Pages usa
 A URL de acesso será algo como:
 
 ```text
-https://<seu-usuario>.github.io/react-streamers-chess/
+https://dienieper.github.io/react-streamers-chess/
 ```
 
 Se o nome do repositório for diferente, ajuste o `base` em `vite.config.ts` para corresponder ao nome correto.
