@@ -62,13 +62,13 @@ src/
 
 ## Arquitetura
 
-| Componente    | Responsabilidade |
-|---------------|------------------|
-| `App`         | Fetch da API via `useEffect`; estados `loading`, `error` e `streamers`; renderização condicional |
-| `StreamerList`| Recebe `Streamer[]` e renderiza a lista de `StreamerCard` |
-| `StreamerCard`| Exibe avatar, username, link Twitch e indicador live |
-| `Loading`     | Feedback visual enquanto os dados carregam |
-| `EmptyState`  | Mensagem quando não há streamers ou ocorreu erro |
+| Componente     | Responsabilidade                                                                                 |
+| -------------- | ------------------------------------------------------------------------------------------------ |
+| `App`          | Fetch da API via `useEffect`; estados `loading`, `error` e `streamers`; renderização condicional |
+| `StreamerList` | Recebe `Streamer[]` e renderiza a lista de `StreamerCard`                                        |
+| `StreamerCard` | Exibe avatar, username, link Twitch e indicador live                                             |
+| `Loading`      | Feedback visual enquanto os dados carregam                                                       |
+| `EmptyState`   | Mensagem quando não há streamers ou ocorreu erro                                                 |
 
 ### Fluxo de estados
 
@@ -96,5 +96,3 @@ Documentação da API: [Chess.com Streamers API](https://api.chess.com/pub/strea
 - Refresh automático / polling
 - Bibliotecas de UI (Material, Tailwind, etc.)
 - State management externo (Redux, Zustand, etc.)
-
-
