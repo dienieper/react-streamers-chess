@@ -8,7 +8,7 @@ Aplicação web que consome a [API pública de streamers do Chess.com](https://a
 - Indicador de live (bolinha vermelha) ao lado do nome quando o streamer está transmitindo
 - Estados de feedback: loading durante o carregamento e empty state em caso de erro ou lista vazia
 - Links para o Twitch que abrem em nova aba
-- Tema visual verde-claro com cards arredondados e sombra sutil
+- Tema visual azul-claro com cards arredondados e sombra sutil
 
 ## Stack
 
@@ -87,6 +87,33 @@ Montagem do App → loading
 Sem autenticação. A resposta contém um array `streamers` com objetos que incluem `username`, `avatar`, `twitch_url`, `url` e `is_live`.
 
 Documentação da API: [Chess.com Streamers API](https://api.chess.com/pub/streamers)
+
+## Deploy no GitHub Pages
+
+Este projeto está configurado para publicar automaticamente em GitHub Pages usando GitHub Actions.
+
+### Requisitos
+
+- Repositório no GitHub
+- Branch `main` ativa
+
+### Como ativar
+
+1. Faça push para a branch `main`
+2. Acesse o repositório no GitHub
+3. Vá em `Settings` → `Pages`
+4. Em `Source`, selecione `GitHub Actions`
+5. O workflow em `.github/workflows/deploy-pages.yml` fará o build e o deploy automaticamente
+
+### URL esperada
+
+A URL de acesso será algo como:
+
+```text
+https://<seu-usuario>.github.io/react-streamers-chess/
+```
+
+Se o nome do repositório for diferente, ajuste o `base` em `vite.config.ts` para corresponder ao nome correto.
 
 ## Fora de escopo (v1)
 

@@ -1,13 +1,13 @@
 :root {
-  --color-bg: #e8f5e9;
+  --color-bg: #eaf6ff;
   --color-bg-card: #ffffff;
-  --color-primary: #2e7d32;
-  --color-primary-muted: rgba(46, 125, 50, 0.25);
-  --color-live: #e53935;
-  --color-text: #1b2e1b;
-  --color-text-muted: #558b2f;
+  --color-primary: #2563eb;
+  --color-primary-muted: rgba(37, 99, 235, 0.18);
+  --color-live: #ef4444;
+  --color-text: #10213d;
+  --color-text-muted: #4f6ea8;
 
-  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: var(--color-text);
