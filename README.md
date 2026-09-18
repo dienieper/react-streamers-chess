@@ -88,22 +88,6 @@ Sem autenticação. A resposta contém um array `streamers` com objetos que incl
 
 Documentação da API: [Chess.com Streamers API](https://api.chess.com/pub/streamers)
 
-## Deploy no GitHub Pages
-
-Este projeto está configurado para publicar automaticamente em GitHub Pages usando GitHub Actions.
-
-### Requisitos
-
-- Repositório no GitHub
-- Branch `main` ativa
-
-### Como ativar
-
-1. Faça push para a branch `main`
-2. Acesse o repositório no GitHub
-3. Vá em `Settings` → `Pages`
-4. Em `Source`, selecione `GitHub Actions`
-5. O workflow em `.github/workflows/deploy-pages.yml` fará o build e o deploy automaticamente
 
 ### URL DO PROJETO
 
