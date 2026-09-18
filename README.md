@@ -97,7 +97,4 @@ Documentação da API: [Chess.com Streamers API](https://api.chess.com/pub/strea
 - Bibliotecas de UI (Material, Tailwind, etc.)
 - State management externo (Redux, Zustand, etc.)
 
-## Referências
 
-- PRD do projeto: [.docs/prd.md](.docs/prd.md)
-- Brain dump original: [.docs/brain-dump.md](.docs/brain-dump.md)
